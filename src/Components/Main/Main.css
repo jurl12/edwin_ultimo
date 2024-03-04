@@ -51,7 +51,7 @@ main {
 }
 .n{
     color: grey;
-    margin: 0 58px;
+    margin: 0 201px;
     text-align-last: justify;
 }
 .cuadros{
@@ -112,6 +112,10 @@ main {
     flex-direction: column;
     
 }
+.dos{
+    display: flex;
+    flex-direction: column;
+}
 
 progress{
     width: 150px;
@@ -134,13 +138,8 @@ progress{
 }
 
 
-@media screen and (max-width: 1280px) {
-    
-    header {
-        height: 153vh;
-    }
-    }
-@media screen and (min-width: 920px) and  (max-width: 1279px) {
+
+@media screen and (max-width: 1279px) {
     
     header {
         height: 154vh;
@@ -152,107 +151,67 @@ progress{
     .n{
         margin: 0 103px;
     }
-    .progreso{
-       justify-content: flex-start;
+   
+    .cuadros {
+        display: flex;
+        justify-content: center;
+        margin: 10px -198px;
+    }
+    .cuadross {
+        display: flex;
+        justify-content: center;
+        margin: 10px -198px;
     }
   }
 
-  @media screen and (min-width: 769px) and  (max-width: 920px){
+  @media screen and (max-width: 920px){
 
-        header{
-            height: 330vh;
-        }
-        .raya1{
-    width: 20%;
-    margin: 0 201px;
-    }
-    .n{
-        margin: 0 222px;
-        position: relative;
-        right: 96px;
-    }
-    .to{
-        position: relative;
-        left: 91px;
-    }
-    .cuadros{
-        position: relative;
-        right: 103px;
-    }
-    .cuadross{
-        position: relative;
-        right: 103px;
-    }
-    .tdd{
-        position: relative;
-        left: -90px;
-    }
-    .lgg {
+    .progreso {
         display: flex;
         justify-content: flex-start;
     }
-    .progreso{
-            display: flex;
-           flex-direction: column;
+    .raya1 {
+        width: 86%;
+        margin: 0px 0px;
     }
-    .lr{
+
+  @media screen and (max-width: 768px){
+    .n {
+        margin: 0 125px;
         position: relative;
-        right: 305px;
+        right: 113px;
     }
-  }
-
-  @media screen and (min-width: 481px) and  (max-width: 768px){
-
-    header{
-        height: 399vh;
-        justify-content:space-around ;
+    .raya1 {
+        width: 68%;
+        margin: 0px 0px;
+    }
+    .cuadros {
         display: flex;
-    }
-    .raya1{
-width: 30%;
-position: relative;
-left: -55px;
-    }
-    .n{
-        margin: 0 112px;
+        justify-content: center;
+        margin: 10px -198px;
         position: relative;
-        right: 58px;
+        right: 121px;
     }
-    .cuadros{
+    .cuadross {
+        display: flex;
+        justify-content: center;
+        margin: 10px -198px;
         position: relative;
-        right: 72px;
+        right: 121px;
     }
-    .cuadross{
-        position: relative;
-        right: 72px;
-    }
-    .tdd{
-        position: relative;
-        left: -62px;
-    }
-    .blanco1{
-display: none;
-    }
-    .lgg {
+    .tdd {
         display: flex;
         justify-content: flex-start;
-    }
-    .progreso{
-            display: flex;
-           flex-direction: column;
-    }
-    .lr{
+        margin: 0px 100px;
         position: relative;
-        right: 197px;
+        right: 95px;
     }
     
-    .logooo{
-       display: none;
+    .tres{
+        display: none;
     }
-
-  }
-
-  @media screen and (min-width: 352px) and  (max-width: 480px){
+   
+  @media screen and  (max-width: 480px){
  
     header{
         height: 404vh;
@@ -314,6 +273,4 @@ display: none;
     position: relative;
     right: 95px;
 }
-}
-
-  
+  }

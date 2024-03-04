@@ -1,12 +1,13 @@
-Header{
-    background-color:#39a900;
-   display: flex;
-   justify-content: space-around;
+Header {
+    background-color: #39a900;
+    display: flex;
+    justify-content: space-around;
     width: 35%;
-    height: 198vh;
+    height: 131vh;
     flex-direction: column;
     text-align: center;
     align-items: center;
+    padding-top: 71px;
 }
 .nombre{
  color: white;

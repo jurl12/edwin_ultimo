@@ -132,11 +132,11 @@ export const Home = () => {
             <div className='lgg'> <Logo content={node}></Logo></div>
                 <progress max='100' id="progress" value='50'></progress>
                 <p className='lr'>Bases</p></div>
-            <div className="uno">
+            <div className="dos">
             <div className='lgg'> <Logo content={java}></Logo></div>
                 <progress max='100' id="progress" value='50'></progress>
                 <p className='lr'>Intermedio</p></div>
-            <div className="uno"><div className='lgg'><Logo content={mongo}></Logo></div>
+            <div className="tres"><div className='lgg'><Logo content={mongo}></Logo></div>
                 <progress max='100' id="progress" value='50'></progress>
                 <p className='lr'>Avanzado</p></div>
           </div>
