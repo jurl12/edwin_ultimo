@@ -173,7 +173,7 @@ progress{
     .raya1 {
         width: 86%;
         margin: 0px 0px;
-    }
+    }}
 
   @media screen and (max-width: 768px){
     .n {
@@ -209,68 +209,38 @@ progress{
     
     .tres{
         display: none;
-    }
+    }}
    
   @media screen and  (max-width: 480px){
- 
-    header{
-        height: 404vh;
+    header {
+        height: 1360px;
+       
     }
- 
-    .n {
-        position: relative;
-        right: 58px;
-        margin: 0 72px;
-    }
-    .raya1 {
-        position: relative;
-        width: 60%;
-        right: 60px;
-        
-  }
-  .logooo{
-    display: none   ;
-  }
-  .to{
-    position: relative;
-    right: 10px;
-  }
-  .lt{
-    font-size: 20px;
-  }
-  .cuadros{
-    position: relative;
-    right: 72px;
-}
-.cuadross{
-    position: relative;
-    right: 72px;
-}
-.tdd{
-    position: relative;
-    left: -103px;
-}
-.blanco1{
+ .logoo{
     display: none;
-}
-.progreso{
+ }
+ .logooo{
+    display: none;
+ }
+ .raya1 {
+    width: 65%;}
+    .lt{
+        font-size: 30px;
+    }
+    .blanco1{
+        display: none   ;
+    }
+   .dos{
+    display: none;
+   }
+   .cuadross{
+    display: none;
+   }
+   .cuadros {
     display: flex;
-   flex-direction: column;
-}
-.lr{
-position: relative;
-right: 197px;
-}
-
-.logooo{
-display: none;
-}
-.lgg {
-   position: relative;
-   left: -95px;
-}
-.lr{
+    margin: 10px -198px;
     position: relative;
-    right: 95px;
+    right: -257px;
+    flex-direction: column;
 }
   }
